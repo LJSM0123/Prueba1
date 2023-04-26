@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><!--meta de "metainformation" - metainformación: Sirve para aportar información sobre el documento-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/CV2.css" type="text/css"><!--Link: Vincular archivos al HTML-->
+    <title>Menú Responsive</title><!--Título de la hoja web-->
+</head>
+<body><!--Cuerpo de la página web-->
+
+    <!--ENCABEZADO CON MENÚ RESPONSIVO-->
+    <header class="header"><!--Encabezado de la página web-->
+        <div class="logo">CURRICULUM VITAE</div><!--Define las divisiones lógicas existentes en el contenido de una página web-->
+        <input type="checkbox" id="toggle"><!--Crea controles interactivos para formularios basados en la web con el fin de recibir datos del usuario-->
+        <label for="toggle" class="mostrar_menu">&#8801</label><!--Representa una etiqueta para un elemento en una interfaz de usuario-->
+        <nav class="navigation"><!--Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos-->
+            <ul><!--Lista no ordenada-->
+                <li><a href="#">Comida favorita</a>
+                    <ul>
+                        <li><a href="#">Ajiaco Santafereño</a></li>
+                        <li><a href="#">Risotto</a></li>
+                    </ul>
+                </li><!--LI: Elemento de lista declara cada uno de los elementos de una lista-->
+                <li><a href="#">Pasatiempos</a>
+                    <ul>
+                        <li><a href="#">Lectura</a></li>
+                        <li><a href="#">Cine y TV</a></li>
+                    </ul>
+                </li><!--a: Crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL-->
+                <li><a href="#">Barrio</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <input type="checkbox" id="toggle2">
+            <label for="toggle" class="ocultar_menu">&#215</label>
+        </nav>
+    </header>
+    <section id="banner">
+        <div class="contenido_banner">
+            <h3><span>Leidy Johanna Serrano M.</span><br>Ingeniera Electrónica</h3>
+        </div>
+    </section>
+
+    <!--PERFILES GIRATORIOS-->
+    <section class="gira">
+        <div class="card">
+            <div class="face front">
+                <img src="./Img/Foto.jpg">
+                <h3>Datos Personales</h3>
+            </div>
+            <div class="face back">
+                <h5>Lugar de nacimiento:</h5> 
+                 <p>Bogotá</p> 
+                <h5>E-mail:</h5> 
+                <p>johannaserrano40@gmail.com</p>
+                <h5>Teléfono:</h5> 
+                <p>3104266958</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front">
+                <img src="./Img/academico.png">
+                <h3>Perfil Académico</h3>
+            </div>
+            <div class="face back">
+                <h5>Ingeniera Electrónica</h5>
+                <p>Universidad el Bosque - Año 2016</p>
+                <h5>Tecnóloga en mantenimiento electrónico e instrumentación industrial</h5>
+                <p>SENA - Año 2010</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front">
+                <img src="./Img/trabajo.jpg">
+                <h3>Perfil Laboral</h3>
+            </div>
+            <div class="face back">
+                <h5>Perfil Laboral</h5>
+                <p class="prof">Profesional en ingeniería electrónica con experiencia en aseguramiento de calidad de software y
+                    monitoreo, administración de redes cisco y aruba, plataformas trend micro y fortinet. Adicional,
+                    tengo experiencia en procesos de contratación para el área de tecnología, gestión de cambios, EROS y
+                    hallazgos, administración de contratos de proveedores de tecnología asegurando cumplimiento del
+                    objeto contractual y ANS y reportes KPI.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front">
+                <img src="./Img/anecdota2.JPG">
+                <h3>Anécdota 1</h3>
+            </div>
+            <div class="face back">
+                <h5>Urgencias veterinarias</h5>
+                <p class="prof">Ella es mi mascota Siberian Husky, su nombre es Ellie... Actualmente tiene 7 años 
+                    y medio y tiene la energía de cuando era bebé auqneu es esquiva. Un día cuando tenía al menos 3 años estuvo revisando la caneca de 
+                    la basura, a lo mejor le dio un delicioso olor y lo que pudo sacar fue una pepa de mango... Se la comió hasta
+                    hasta cuando fue descubierta... Empezó a ponerse malita y luego de varias veces vomitar la llevé al médico, casi
+                    muere, alcanzó a pasarle hasta el intestino media pepa y en su trayecto se lo fue rasgando, la intervinieron 
+                    quirúrgicamente y duró 15 días en casa recuperándose, nunca más se volvió a acercar a la basura.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front">
+                <img src="./Img/anecdota3.JPG">
+                <h3>Anécdota 2</h3>
+            </div>
+            <div class="face back">
+                <h5>De cabeza</h5>
+                <p class="prof">Ella es mi otra mascota Kyra, es una Akita Americano... Actualmente tiene 7 años y medio, a diferencia de 
+                    Ellie es mucho más calmada y sociable. Un día de un arrebato tomó un cesto de tela para ropa y de la nada empezó a meter su 
+                    cabeza en el cesto, no sé si su objetivo era tomarlo como guarida o tener una trompa más larga... Luego de varios intentos
+                    fallidos o no, terminó con el cesto de la ropa en la cabeza cubriéndola hasta el cuello y empezó a caminar y no veía nada y cómicamente empezó a estrellarse con todo lo que había en su paso. Creo
+                    que después de varios pasos fallidos se resignó y sacó su cabeza del cesto para luego irse a dormir. No sé cuál era su objetivo.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face front">
+                <img src="./Img/anecdota.jpg">
+                <h3>Anécdota 3</h3>
+            </div>
+            <div class="face back">
+                <h5>Conociendo Cuzco</h5>
+                <p class="prof">Ir a la montaña de los siete colores es una travesía que no se debe realizar con un bebé de un año,
+                    madrugas mucho, los caminos son al lado de precipicios y sumarle a eso el pánico de la mamá del bebé a las
+                    alturas. Es un camino bastante largo de recorrer a pie y corto en caballo, eso me lo hicieron saber los sitadinos
+                    ya que para ganar más dinero casi que corren para llegar a recibir un nuevo cliente. Al final del camino, se 
+                    aprecia una hermosa montaña con colores vivos, sin embargo hay que ir preparado para el clima frío y con valor
+                    y fuerzas para subir hasta el límite.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section id="redes">
+            <a href="https://www.facebook.com/Leidy0123/"><img src="./Img/face.png"></a>
+            <a href="https://www.instagram.com/ljsmlj/"><img src="./Img/insta.png"></a>
+            <a href="https://www.linkedin.com/in/leidy-johanna-serrano-mart%C3%ADnez-4b18ba101/"><img src="./Img/linked.png"></a>
+            <a href="https://api.whatsapp.com/send/?phone=3104266958"><img src="./Img/what.png"></a>
+        </section>
+    </footer>
+</body>
+</html>

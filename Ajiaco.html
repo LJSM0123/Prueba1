@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es" class="aj">
+
+<head>
+    <meta charset="UTF-8"><!--meta de "metainformation" - metainformación: Sirve para aportar información sobre el documento-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/CV2.css" type="text/css"><!--Link: Vincular archivos al HTML-->
+    <title>Menú Responsive</title><!--Título de la hoja web-->
+</head>
+
+<body class="aj_body">
+    <!--ENCABEZADO CON MENÚ RESPONSIVO-->
+    <header class="header"><!--Encabezado de la página web-->
+        <div class="logo">Receta: Ajiaco Santafereño</div><!--Define las divisiones lógicas existentes en el contenido de una página web-->
+        <input type="checkbox" id="toggle"><!--Crea controles interactivos para formularios basados en la web con el fin de recibir datos del usuario-->
+        <label for="toggle" class="mostrar_menu">&#8801</label><!--Representa una etiqueta para un elemento en una interfaz de usuario-->
+        <nav class="navigation"><!--Representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, ya sea dentro del documento actual o a otros documentos-->
+            <ul><!--Lista no ordenada-->
+                <li><a href="#">Comida favorita</a>
+                    <ul>
+                        <li><a href="#">Ajiaco Santafereño</a></li>
+                        <li><a href="#">Risotto</a></li>
+                    </ul>
+                </li><!--LI: Elemento de lista declara cada uno de los elementos de una lista-->
+                <li><a href="#">Pasatiempos</a>
+                    <ul>
+                        <li><a href="#">Lectura</a></li>
+                        <li><a href="#">Cine y TV</a></li>
+                    </ul>
+                </li><!--a: Crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página, direcciones de correo, o cualquier otra URL-->
+                <li><a href="#">Barrio</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <input type="checkbox" id="toggle2">
+            <label for="toggle" class="ocultar_menu">&#215</label>
+        </nav>
+    </header>
+    <div class="grid_ajiaco">
+        <main class="main_ajiaco"><img src="Img/FotoA.JPG"></main>
+        <div id="sidebar_ajiaco">
+            <h3>Ingredientes</h3>
+        <ul>
+            <li>8 tazas de agua</li>
+            <li>1 1/2 pechuga mediana de pollo sin piel y sin hueso</li>
+            <li>1 taza de guascas secas</li>
+            <li>2 lbs de papa criolla</li>
+            <li>2 lbs de papa sabanera</li>
+            <li>2 lbs de papa pastusa</li>
+            <li>1 zanahoria pequeña picada en cubos grandes</li>
+            <li>2 ramos de apio en trozos grandes</li>
+            <li>1 cebolla cabezona mediana picada</li>
+            <li>2 tallos de cebolla larga picada finamente</li>
+            <li>2 dientes de ajo picados</li>
+            <li>4 mazorcas grandes de maiz</li>
+            <li>1 cubo de caldo de gallina</li>
+            <li>1/2 taza de arvejas</li>
+            <li>2 cucharadas de cilantro</li>
+            <li>Sal al gusto</li>
+        </ul></div>
+        <div id="grid1_ajiaco">
+            <table>
+                <tr>
+                    <th>Preparación</th>
+                    <th>Total</th>
+                    <th>Ingredientes</th>
+                    <th>Porciones</th>
+                </tr>
+                <tr>
+                    <td>2<sub>Hrs</sub>50<sub>Min</sub></td>
+                    <td>4<sub>Hrs</sub>00<sub>Min</sub></td>
+                    <td>16</td>
+                    <td>6</td>
+                </tr>
+            </table></div>
+        <div id="grid2_ajiaco">
+            <p>El ajiaco colombiano es una de las sopas más ricas y completas, no solo en el país cafetero, sino en toda
+                Latinoamérica. Color, textura, ingredientes criollos, todo en un menú que lejos de ser una simple receta, es
+                reflejo de una rica historia culinaria.</p></div>
+        <div id="grid3_ajiaco">
+            <h3>Instrucciones</h3></div>
+        <div id="grid4_ajiaco">
+            <ol>
+                <li>Cocinar el pollo en agua, con la zanahoria, la cebolla cabezona, el apio, la mazorca y una cucharadita de
+                    sal</li><br>
+                <img src="./Img/1.JPG"></div>
+                <div id="grid5_ajiaco">
+                    <li>Pelar las papas y cortarlas en tajadas.</li><br>
+                    <img src="./Img/2.JPG"></div>
+                <div id="grid6_ajiaco">
+                    <li>Sofreir la cebolla larga y el ajo con un poco de mantequilla.</li><br>
+                    <img src="./Img/3.JPG"></div>
+                <div id="grid7_ajiaco">
+                    <li>Retirar el pollo y los vegetales del caldo. Añadir las papas, la mitad de las guascas, los cubos de caldo de
+                        gallina y las mazorcas. Tapar y cocinar a fuego medio.</li><br>
+                    <img src="./Img/4.JPG"></div>
+                <div id="grid8_ajiaco">
+                    <li>Desmechar el pollo.</li><br>
+                    <img src="./Img/5.JPG"></div>
+                <div id="grid9_ajiaco">
+                    <li>Cocinar hasta que la papa criolla y pastusa se deshagan. Rectificar la sal, añadir el cilantro y las guascas
+                        restantes.</li><br>
+                    <img src="./Img/6.JPG">
+                    <li>Servir con el pollo y acompañado con arroz blanco, aguacate, crema de leche y alcaparras.</li></div>
+            </ol>
+        </div>
+    <footer>
+        <section id="redes">
+            <a href="https://www.facebook.com/Leidy0123/"><img src="./Img/face.png"></a>
+            <a href="https://www.instagram.com/ljsmlj/"><img src="./Img/insta.png"></a>
+            <a href="https://www.linkedin.com/in/leidy-johanna-serrano-mart%C3%ADnez-4b18ba101/"><img src="./Img/linked.png"></a>
+            <a href="https://api.whatsapp.com/send/?phone=3104266958"><img src="./Img/what.png"></a>
+            <a class="aj_a" href="Curriculum.html">Inicio</a>
+        </section>
+    </footer>
+</body>
+
+</html>
