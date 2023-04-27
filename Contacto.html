@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div>
+            <p>
+            <h1><i>Formulario de contacto</i></h1>
+            </p>
+        </div>
+    </header>
+    <br>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" required="true" type="text">
+        <br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" required="true" type="text">
+        <br><br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="1" max="99" step="1">
+        <br><br>
+        <label for="genero">Género</label><br>
+        <label for="femenino">Femenino</label>
+        <input type="radio" name="genero" id="genero" value="femenino">
+        <label for="femenino">Masculino</label>
+        <input type="radio" name="genero" id="genero" value="masculino">
+        <label for="femenino">Otro</label>
+        <input type="radio" name="genero" id="genero" value="otro">
+        <br><br>
+        <label for="estudios">Nivel de estudios</label>
+        <select name="primaira" id="primaria">
+            <option value="seleccione"></option>
+            <option value="primaria">Primaria</option>
+            <option value="bachillerato">Bachillerato</option>
+            <option value="pregrado">Pregrado</option>
+            <option value="posgrado">Posgrado</option>
+            <option value="doctorado">Doctorado</option>
+        </select>
+        <br><br>
+        <label for="nacimiento">Fecha de nacimiento</label>
+        <input type="date" name="nacimiento" id="nacimiento">
+        <br><br>
+        <label for="color">Selecciona tu color favorito</label>
+        <input type="color" name="color" id="color">
+        <br><br>
+        <label for="web">Añade tu página web</label>
+        <input type="url" name="web" id="web">
+        <br><br>
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label for="clave">Crear clave</label>
+        <input type="password" name="clave" id="clave">
+        <br><br>
+        <label for="obser">Observaciones</label>
+        <textarea name="obser" id="obser" cols="30" rows="10"></textarea>
+        <br><br>
+        <label for="tyc">Acepto términos y condiciones</label>
+        <input type="checkbox" name="tyc" id="tyc">
+        <br><br>
+        <label for="imagen">Adjunta tu imagen favorita</label>
+        <input type="file" name="imagen" id="imagen">
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
